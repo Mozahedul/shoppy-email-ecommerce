@@ -1,0 +1,22 @@
+{
+  "name": "shoppy-email-ecommerce",
+  "version": "1.0.0",
+  "description": "An ecommmerce email template for product promotion",
+  "homepage": "https://github.com/Mozahedul/shoppy-email-ecommerce#readme",
+  "bugs": {
+    "url": "https://github.com/Mozahedul/shoppy-email-ecommerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozahedul/shoppy-email-ecommerce.git"
+  },
+  "license": "MIT",
+  "author": "Mozahedul Islam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml index.mjml -o index.html",
+    "watch": "nodemon --ext mjml --exec \"npm run build\""
+  }
+}
