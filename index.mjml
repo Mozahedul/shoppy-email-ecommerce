@@ -6,7 +6,7 @@
     </mj-preview>
 
     <!-- Breakpoint -->
-    <mj-breakpoint width="480px" />
+    <mj-breakpoint width="380px" />
 
     <!-- Email Title -->
     <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
@@ -178,6 +178,14 @@
           background-color: #1a1a1a !important;
         }
 
+        .dm-bg-section-soft,
+        .dm-bg-section-soft > div,
+        .dm-bg-section-soft > table,
+        .dm-bg-section-soft > table > tbody > tr > td,
+        .dm-bg-section-soft td {
+          background-color: #141414 !important;
+        }
+
         /* ── Card / gray section backgrounds ── */
         .dm-bg-card,
         .dm-bg-card > div,
@@ -294,5 +302,342 @@
   </mj-head>
 
   <mj-body width="600px" background-color="#f4f4f4" css-class="dm-bg-outer">
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#fef4f2">
+      <mj-column vertical-align="top">
+        <mj-image
+          align="center"
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778602575/shoppy-email-ecommerce/images/shoppy-logo_i1urkp.png"
+          alt="Ultimate Technology Limited"
+          href="https://taqwaitagency.com"
+          padding="16px 0"
+          width="140px"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- ============================================================ -->
+    <!-- HERO — dark bg image, no dark mode override needed            -->
+    <!-- ============================================================ -->
+    <mj-hero
+      mode="fluid-height"
+      background-url="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778604053/shoppy-email-ecommerce/images/banner_fpnepv.png"
+      background-color="#fef5f2"
+      background-width="600px"
+      background-height="300px"
+    >
+      <mj-text
+        color="#444444"
+        align="center"
+        line-height="1.2"
+        padding="10px 0"
+      >
+        <span style="font-size: 32px; font-weight: 700">
+          Looks like you <br />
+          left something<br />
+          behind
+        </span>
+      </mj-text>
+
+      <mj-text
+        align="center"
+        padding="0px 0px 10px 0px"
+        font-size="16px"
+        font-weight="600"
+      >
+        We saved your cart for you
+      </mj-text>
+
+      <mj-spacer height="15px" />
+      <!-- Hero button — amber accent -->
+      <mj-button
+        href="https://mjml.io/product"
+        font-size="14px"
+        line-height="1"
+        align="center"
+        background-color="#f14e5d"
+        color="#ffffff"
+      >
+        Order Your Ticket Now
+      </mj-button>
+    </mj-hero>
+
+    <!--
+    mj spacer
+    For creating horizontal space between sections
+    -->
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- 2 COLUMN ARTICLE SECTION                                      -->
+    <!-- ============================================================ -->
+    <mj-section
+      padding="8px 0"
+      background-color="#ffffff"
+      css-class="dm-bg-section"
+    >
+      <mj-column padding="0px 10px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778601459/shoppy-email-ecommerce/images/1_zbkwlu.png"
+          alt="Beautiful white flower in natural light"
+          padding="0"
+          width="120px"
+          align="right"
+        />
+      </mj-column>
+
+      <mj-column padding="0 10px">
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0"
+        >
+          Oversized Cotton T-Shirt
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="13px"
+          font-weight="bold"
+          line-height="1.4"
+          color="#666666"
+        >
+          $29.99
+        </mj-text>
+        <mj-text font-size="13px" color="#777777" padding="6px 0 0">
+          Size: L | Color: White
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- 2 COLUMN ARTICLE SECTION                                      -->
+    <!-- ============================================================ -->
+    <mj-section
+      padding="8px 0px"
+      background-color="#ffffff"
+      css-class="dm-bg-section"
+    >
+      <mj-column padding="0px 10px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778601459/shoppy-email-ecommerce/images/2_o6t9po.png"
+          alt="Minimal leather watch"
+          padding="0"
+          width="120px"
+          align="right"
+        />
+      </mj-column>
+
+      <mj-column padding="0 10px">
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0"
+        >
+          Minimal Leather Watch
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="13px"
+          font-weight="bold"
+          line-height="1.4"
+          color="#666666"
+        >
+          $89.99
+        </mj-text>
+        <mj-text font-size="13px" color="#777777" padding="6px 0 0">
+          Size: L | Color: Brown
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- 2 COLUMN ARTICLE SECTION                                      -->
+    <!-- ============================================================ -->
+    <mj-section
+      padding="8px 0"
+      background-color="#ffffff"
+      css-class="dm-bg-section"
+    >
+      <mj-column padding="0px 10px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778601459/shoppy-email-ecommerce/images/1_zbkwlu.png"
+          alt="Beautiful white flower in natural light"
+          padding="0"
+          width="120px"
+          align="right"
+        />
+      </mj-column>
+
+      <mj-column padding="0 10px">
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0"
+        >
+          Oversized Cotton T-Shirt
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="13px"
+          font-weight="bold"
+          line-height="1.4"
+          color="#666666"
+        >
+          $29.99
+        </mj-text>
+        <mj-text font-size="13px" color="#777777" padding="6px 0 0">
+          Size: L | Color: White
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- MJ Border -->
+    <mj-section css-class="dm-bg-section">
+      <mj-column>
+        <mj-divider
+          border-style="solid"
+          border-color="#0d0304"
+          border-width="2px"
+          width="100%"
+          align="left"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- 3 COLUMN ICONS SECTION -->
+    <mj-section
+      padding="30px 0px"
+      background-color="#fdeded"
+      css-class="dm-bg-section-soft"
+    >
+      <mj-column padding="0 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778584464/email-portfolio/luxeora/icons/truck_obd6bo.png"
+          alt="Shopping for women"
+          width="50px"
+          padding="0px"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+        >
+          Free shipping
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #444444; text-decoration: none; font-weight: 500"
+            >On orders over $75</span
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding="0px 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778601458/shoppy-email-ecommerce/icons/clock_jjokoo.png"
+          alt="Shopping for men"
+          width="40px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+        >
+          Easy Returns
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #444444; text-decoration: none; font-weight: 500"
+            >30 days return</span
+          >
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778601459/shoppy-email-ecommerce/icons/headphone_qyvlir.png"
+          alt="Shopping for men"
+          width="40px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#111111"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+          line-height="1.4"
+        >
+          Secure Payment
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #444444; text-decoration: none; font-weight: 500"
+            >100% Safe</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
