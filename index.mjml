@@ -512,16 +512,13 @@
       </mj-column>
     </mj-section>
 
-    <!-- MJ Border -->
+    <!--
+   mj spacer
+   For creating horizontal space between sections
+   -->
     <mj-section css-class="dm-bg-section">
       <mj-column>
-        <mj-divider
-          border-style="solid"
-          border-color="#0d0304"
-          border-width="2px"
-          width="100%"
-          align="left"
-        />
+        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
 
